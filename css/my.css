@@ -1,0 +1,154 @@
+body {
+  background: #EEF3FA;
+  font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
+}
+
+.container {
+  background: #fff;
+  padding: 15px 15px;
+}
+
+.left-aside{
+  background: #47C0AD;
+  padding: 34px 1px;
+  margin-bottom: 20px;
+}
+
+.user-logo {
+  margin: 0 auto;
+  width: 138px
+}
+
+.wechat-qrcode-box {
+  margin-top: 35px;
+}
+.wechat-qrcode-box img{
+  margin: 0 auto;
+  display: block;
+  width: 150px
+}
+
+.wechat-qrcode-box img:hover{
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in 0s;
+}
+
+.user-logo .user-img {
+  display: inline-block;
+  width: 100%
+}
+
+.user-img:hover{
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in 0s;
+}
+
+.user-name {
+  padding: 20px 0px;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+
+.job-box {
+  margin: 0 auto;
+  width: 75%;
+  color: #47C0AD;
+  text-align: center;
+  background: #fff;
+  padding: 8px 0px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  font-weight: 600
+}
+
+.info-item {
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  height: 54px;
+  color: #fff;
+  margin-top: -1px;
+  overflow: hidden;
+}
+
+.info-item .icon-box{
+  float: left;
+  width: 60px;
+  height: 54px;
+  line-height: 53px;
+  text-align: right;
+  padding-right: 5px;
+  font-size: 16px;
+}
+
+.info-item .inner-box{
+  margin-left: 60px;
+  height: 54px;
+  line-height: 53px;
+  text-align: left;
+  font-size: 16px;
+}
+
+
+.content-box {
+  overflow: hidden;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.content-box .type-box {
+  height: 34px;
+  line-height: 35px;
+  text-align: left;
+  padding: 0 10px;
+  color: #fff;
+  background: #47C0AD;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  width: 200px;
+  box-shadow: 20px 0px 0px rgba(144, 144, 144, 0.5);
+}
+
+.content-box .inner-box {
+  overflow: hidden;
+  height: auto;
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  .dl-horizontal dt {
+    float: left;
+    width: 90px;
+    overflow: hidden;
+    clear: left;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 768px) {
+  .dl-horizontal dd {
+    margin-left: 90px !important;
+  }
+}
+
+
+.work-item {
+  overflow: hidden;
+  height: auto;
+}
+
+.project-name {
+  color: #47C0AD;
+  font-weight: 700;
+  font-size: 20px
+}
+
+.me-text {
+  color: #47C0AD;
+  font-weight: 700;
+}
+
+
+
